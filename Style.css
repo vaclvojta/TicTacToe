@@ -1,0 +1,114 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#board {
+    border-collapse: collapse;
+    color: #fff;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#hamburger div {
+    width: 2rem;
+    height: 0.25rem;
+    background: #fff;
+}
+
+#dropdown {
+    display: none;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+#dropdown.show {
+    display: block;
+    width: 400px; /* Set the width of the dropdown */
+    height: 200px; /* Set the height of the dropdown */
+}
+
+#board {
+    margin-top: 20px;
+    border-collapse: collapse;
+    color: #fff;
+}
+
+#board td {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35px;
+    padding: 10px;
+    color: #fff;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+    font-family: 'Courier New', monospace; /* Set the font of the buttons */
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: #000;
+    border: 2px solid #fff;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    outline: none;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #fff;
+}
+
+label {
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+#checkboxes label {
+    display: flex;
+    align-items: center;
+}
+
+#checkboxes label input {
+    margin-right: 10px;
+}

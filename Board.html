@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<div id="controls">
+    <div id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div id="dropdown" class="hidden">
+        <div id="checkboxes">
+            <label for="computerPlayer">Computer Player:</label>
+            <input type="checkbox" id="computerPlayer">
+            <label for="randomStrategy">Random Strategy:</label>
+            <input type="checkbox" id="randomStrategy">
+            <label for="strategyToggle">Toggle Strategy:</label>
+            <input type="checkbox" id="strategyToggle">
+            <label for="algorithmicOpponent">Algorithmic Opponent:</label>
+            <input type="checkbox" id="algorithmicOpponent">
+        </div>
+    </div>
+    <p id="turn"></p>
+    <p id="winner"></p>
+</div>
+<table id="board">
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+<div id="buttons">
+    <button id="start">Start Game</button>
+    <button id="reset">Reset Game</button>
+</div>
+<script src="Script.js"></script>
+</body>
+</html>
